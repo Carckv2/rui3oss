@@ -77,8 +77,8 @@ TARGET_KERNEL_SOURCE := kernel/realme/RMX3395
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
 ifeq ($(TARGET_FORCE_PREBUILT_KERNEL),true)
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
-TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
+TARGET_PREBUILT_KERNEL := device/realme/RMX3395/prebuilt/kernel
+TARGET_PREBUILT_DTB := device/realme/RMX3395/prebuilt/dtb.img
 BOARD_INCLUDE_DTB_IN_BOOTIMG := false
 BOARD_BOOTIMG_HEADER_VERSION := 3
 endif
