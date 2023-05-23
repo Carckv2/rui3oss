@@ -21,7 +21,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     bootctrl.mt6877
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+# PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     bootctrl.mt6877 \
     libgptutils \
     libz \
